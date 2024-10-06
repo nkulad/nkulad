@@ -16,9 +16,9 @@ anchore-engine: anchore/anchore-engine@1.9.0
         example-job
           docker
             #replace with your preffered image
-            - image: cimg/base:stable
-          steps:
-            
+          image cimg/base:stable
+          steps 
+
 
 
 
