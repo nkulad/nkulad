@@ -5,7 +5,16 @@ version: 2.1
 
 Orbs: 
   slack: circle/slack@4.4.4
-  
+
+Workflows:
+    example-workflow
+      jobs
+        - slack/on-hold
+
+
+
+
+
 
 
   
