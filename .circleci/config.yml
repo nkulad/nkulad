@@ -11,6 +11,19 @@ Workflows:
       jobs
         - slack/on-hold
 
+anchore-engine: anchore/anchore-engine@1.9.0
+      jobs
+        example-job
+          docker
+            #replace with your preffered image
+            - image: cimg/base:stable
+          steps:
+            
+
+
+
+
+
 
 
 
