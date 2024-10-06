@@ -2,17 +2,6 @@
 # See: https://circleci.com/docs/configuration-reference
 version: 2.1
 
-# orbs
-##
-#  Orbs used in Pipeline
-##
-orbs:
-  slack: circleci/slack@4.12.5 # Ref: https://github.com/mojaloop/ci-config/tree/master/slack-templates
-  pr-tools: mojaloop/pr-tools@0.1.10 # Ref: https://github.com/mojaloop/ci-config/
-  gh:  circleci/github-cli@2.2.2.0
-  anchore: anchore/anchore-engine@1.9.0
-      
-##
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
 jobs:
